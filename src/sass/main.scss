@@ -14,7 +14,24 @@ html {
 }
 
 body {
-    color: $color-white;
-    background: $color-black;
     font-family: $font-family-montserrat;
+}
+
+footer {
+  background-color: $color-light;
+}
+.title {
+  font-weight: $font-weight-bold;
+}
+.light-bg {
+  background: $color-light;
+}
+.white-bg {
+  background-color: white;
+}
+.orange-color {
+  color: $color-orange;
+  .black {
+    background-color: black;
+  }
 }
