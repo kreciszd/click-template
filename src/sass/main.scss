@@ -19,9 +19,22 @@ body {
 
 footer {
   background-color: $color-light;
+  p {
+    font-size: 18px;
+  }
+}
+.container {
+  max-width: 1400px;
 }
 .title {
+  font-size: 90px;
   font-weight: $font-weight-bold;
+}
+p {
+  font-size: 26px;
+}
+span {
+  font-size: 12px;
 }
 .light-bg {
   background: $color-light;
@@ -34,4 +47,14 @@ footer {
   .black {
     background-color: black;
   }
+}
+
+.main-box {
+  min-height: 100vh;
+  background-image: url("/assets/foto_wrapper.png") ;
+  background-color: (0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  padding-top: 30px;
 }
