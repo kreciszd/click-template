@@ -31,16 +31,26 @@ footer {
   font-weight: $font-weight-bold;
 }
 p {
-  font-size: 26px;
+  font-size: 18px;
 }
-span {
+small {
   font-size: 12px;
 }
 .light-bg {
   background: $color-light;
 }
+.grey-bg {
+  background: #F9F9F9;
+}
 .white-bg {
   background-color: white;
+}
+.black-bg {
+  background-color: #2B2B2B;
+}
+.orange-bg {
+  background-color: $color-orange;
+  color: white;
 }
 .orange-color {
   color: $color-orange;
@@ -48,7 +58,12 @@ span {
     background-color: black;
   }
 }
-
+.orange-color {
+  color: $color-orange;
+  .black {
+    background-color: black;
+  }
+}
 .main-box {
   min-height: 100vh;
   background-image: url("/assets/foto_wrapper.png") ;
@@ -57,4 +72,51 @@ span {
   background-position: right;
   background-size: contain;
   padding-top: 30px;
+}
+
+.blog-box {
+  background-image: url("/assets/blog.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article-box {
+  background-image: url("/assets/article.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.hover-white:hover {
+  background-color: white;
+}
+
+.click-button {
+  border: 0;
+  border-radius: 0;
+  font-size: 18px
+}
+ul {
+  font-size: 18px;
+}
+
+.blog-article {
+  background-color: white;
+  padding: 0;
 }

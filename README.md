@@ -100,6 +100,9 @@ gulp build
 ```
 This will build files and assets to `dist` directory.
 
+`node ./node_modules/gulp/bin/gulp.js`
+
+
 <hr />
 
 ## Documentation
